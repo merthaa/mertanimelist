@@ -1,3 +1,15 @@
 @import "tailwindcss";
 
+img {
+    border-radius: 5px;
+    transition: .3s ease all;
+    animation: .3s ease all;
+    -moz-animation: .3s ease all;
+    -webkit-animation: .3s ease all;
+    -o-animation: .3s ease all;
+    -ms-animation: .3s ease all;
+}
 
+img:hover {
+    scale: 102%;
+}
